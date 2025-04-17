@@ -53,8 +53,7 @@ const MusicPlaylist = () => {
           
           <div className="p-6 bg-gradient-to-b from-white to-pink-50">
             <p className="text-gray-600 mb-6 italic border-l-4 border-pink-300 pl-3 py-1">
-              "I've put together songs that remind me of our favorite memories together. 
-              Each track has a special meaning that celebrates our friendship."
+              "I've put together songs that I thought you would like to listen";
             </p>
             
             <div className="space-y-3">
