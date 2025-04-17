@@ -16,9 +16,24 @@ export default {
       },
       backgroundColor: {
         background: 'hsl(var(--background))',
+        'birthday-lavender': '#E5DEFF',
+        'birthday-teal': '#00CED1',
+        'birthday-pink': '#FFB6C1',
+        'birthday-purple': '#9B87F5',
+        'birthday-blue': '#87CEEB',
       },
       textColor: {
         foreground: 'hsl(var(--foreground))',
+        'birthday-lavender': '#E5DEFF',
+        'birthday-teal': '#00CED1',
+        'birthday-pink': '#FFB6C1',
+        'birthday-purple': '#9B87F5',
+        'birthday-blue': '#87CEEB',
+      },
+      gradientColorStops: {
+        'gradient-start': '#FFB6C1',
+        'gradient-middle': '#9B87F5',
+        'gradient-end': '#87CEEB'
       }
     }
   },
