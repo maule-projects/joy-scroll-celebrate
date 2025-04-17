@@ -17,32 +17,32 @@ const messages: Message[] = [
   {
     id: 1,
     text: "Happy birthday to the most amazing person I know! Hope your day is filled with joy and laughter.",
-    sender: "Alex",
+    sender: "Trisha",
     position: "left"
   },
   {
     id: 2,
     text: "Wishing you all the happiness in the world on your special day!",
-    sender: "Jordan",
+    sender: "Vignesh",
     position: "right"
   },
   {
     id: 3,
-    text: "Remember that time we got lost on our road trip? Still one of my favorite memories with you!",
-    sender: "Taylor",
+    text: "Happy Birthday to someone who’s aging like fine wine!",
+    sender: "Nishanthini",
     position: "left",
     hasAudio: true
   },
   {
     id: 4,
-    text: "You're the best friend anyone could ask for. Happy birthday!",
-    sender: "Morgan",
+    text: "Don't worry, they are not gray hairs, they are wisdom highlights. You just happen to be extremely wise!",
+    sender: "Monika",
     position: "right"
   },
   {
     id: 5,
-    text: "I've got a surprise waiting for you... can't wait to celebrate in person!",
-    sender: "Riley",
+    text: "Happy Birthday to my favorite partner in crime! Let's make this year even more epic.";,
+    sender: "Dharshana",
     position: "left",
     isSecret: true
   }
