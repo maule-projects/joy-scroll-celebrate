@@ -41,7 +41,7 @@ const messages: Message[] = [
   },
   {
     id: 5,
-    text: "Happy Birthday to my favorite partner in crime! Let's make this year even more epic.";,
+    text: "Happy Birthday to my favorite partner in crime! Let's make this year even more epic.",
     sender: "Dharshana",
     position: "left",
     isSecret: true
