@@ -76,11 +76,11 @@ const MusicPlaylist = () => {
                     2
                   </div>
                   <div>
-                    <h4 className="font-medium text-gray-800">Happy</h4>
-                    <p className="text-sm text-gray-500">Pharrell Williams</p>
+                    <h4 className="font-medium text-gray-800">Poraney Poraney</h4>
+                    <p className="text-sm text-gray-500">Ghibran</p>
                   </div>
                 </div>
-                <span className="text-sm text-pink-400 font-medium">3:53</span>
+                <span className="text-sm text-pink-400 font-medium">5:14</span>
               </div>
               
               <div className="rounded-xl bg-white p-4 flex justify-between items-center hover:bg-pink-50 transition-colors border border-pink-100 shadow-sm">
@@ -89,11 +89,11 @@ const MusicPlaylist = () => {
                     3
                   </div>
                   <div>
-                    <h4 className="font-medium text-gray-800">Don't Stop Me Now</h4>
-                    <p className="text-sm text-gray-500">Queen</p>
+                    <h4 className="font-medium text-gray-800">Muzhumathi</h4>
+                    <p className="text-sm text-gray-500">A.R.Rahman</p>
                   </div>
                 </div>
-                <span className="text-sm text-pink-400 font-medium">3:29</span>
+                <span className="text-sm text-pink-400 font-medium">5:12</span>
               </div>
               
               <div className="rounded-xl bg-white p-4 flex justify-between items-center hover:bg-pink-50 transition-colors border border-pink-100 shadow-sm">
@@ -102,11 +102,11 @@ const MusicPlaylist = () => {
                     4
                   </div>
                   <div>
-                    <h4 className="font-medium text-gray-800">Good as Hell</h4>
-                    <p className="text-sm text-gray-500">Lizzo</p>
+                    <h4 className="font-medium text-gray-800">Omana Penne</h4>
+                    <p className="text-sm text-gray-500">A.R.Rahman</p>
                   </div>
                 </div>
-                <span className="text-sm text-pink-400 font-medium">2:39</span>
+                <span className="text-sm text-pink-400 font-medium">5:32</span>
               </div>
               
               <div className="rounded-xl bg-white p-4 flex justify-between items-center hover:bg-pink-50 transition-colors border border-pink-100 shadow-sm">
@@ -115,11 +115,11 @@ const MusicPlaylist = () => {
                     5
                   </div>
                   <div>
-                    <h4 className="font-medium text-gray-800">Beautiful Day</h4>
-                    <p className="text-sm text-gray-500">U2</p>
+                    <h4 className="font-medium text-gray-800">Kadhalaada</h4>
+                    <p className="text-sm text-gray-500">Anirudh</p>
                   </div>
                 </div>
-                <span className="text-sm text-pink-400 font-medium">4:06</span>
+                <span className="text-sm text-pink-400 font-medium">4:15</span>
               </div>
             </div>
             
@@ -139,7 +139,7 @@ const MusicPlaylist = () => {
               <p className="text-center text-xs text-gray-500 mt-3">
                 <span className="inline-flex items-center">
                   <Heart size={12} className="mr-1 text-pink-400" />
-                  Made with love for your special day
+                  Made with love for your Birthday
                 </span>
               </p>
             </div>
