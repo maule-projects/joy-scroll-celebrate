@@ -1,73 +1,74 @@
-# Welcome to your Lovable project
+# Birthday Celebration Website
+
+A beautiful, interactive, and mobile-friendly birthday celebration website filled with memories, messages, and fun elements to make someone's special day even more special.
 
 ## Project info
 
 **URL**: https://lovable.dev/projects/276749ae-5277-4f2e-ab45-fc9198048c74
 
-## How can I edit this code?
+## Features
 
-There are several ways of editing your application.
+1. **Grand Hero Entrance** - Beautiful animated entrance with customizable name
+2. **Memory Lane Photo Carousel** - Interactive gallery of special memories
+3. **Friend Messages Section** - Messages with surprise reveal and confetti effects
+4. **Fun Facts Quiz** - Interactive quiz about the birthday person
+5. **Music Playlist** - Curated list of special songs 
+6. **Personal Letter** - Animated typewriter-style letter reveal
+7. **Digital Gift Section** - Interactive gift unwrapping with surprise reveal
+8. **Fireworks Ending** - Celebratory finale with confetti
 
-**Use Lovable**
+## Customization Guide
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/276749ae-5277-4f2e-ab45-fc9198048c74) and start prompting.
+To customize the birthday website for someone special:
 
-Changes made via Lovable will be committed automatically to this repo.
+1. **Change the Name**: Edit the `name` state in `src/pages/Index.tsx` (line 13)
+2. **Update Photos**: Replace memory URLs in `src/components/MemoryLane.tsx`
+3. **Personalize Messages**: Edit friend messages in `src/components/FriendMessages.tsx`
+4. **Customize Quiz**: Update fun facts in `src/components/FunFacts.tsx`
+5. **Change Playlist**: Edit song list in `src/components/MusicPlaylist.tsx` 
+6. **Personalize Letter**: Modify the letter content in `src/components/LetterSection.tsx`
+7. **Update Gift**: Change gift details in `src/components/DigitalGift.tsx`
 
-**Use your preferred IDE**
+## Design Elements
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+- **Color Scheme**: Vibrant birthday colors with gradients
+- **Typography**: Combination of Montserrat (modern) and Dancing Script (decorative)
+- **Animations**: Smooth scroll, fade-ins, confetti, typewriter effects
+- **Mobile-Friendly**: Responsive design for all device sizes
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## How to Use
 
-Follow these steps:
+1. Clone the repository and install dependencies:
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
 git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
 cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
 npm i
+```
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+2. Start the development server:
+
+```sh
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+3. Make your customizations and deploy for the birthday surprise!
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## Technologies Used
 
-**Use GitHub Codespaces**
+- React with TypeScript
+- Tailwind CSS for styling
+- React Slick for carousel
+- React Confetti for celebration effects
+- React Intersection Observer for scroll animations
+- Lucide React for icons
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
+## Deployment
 
 Simply open [Lovable](https://lovable.dev/projects/276749ae-5277-4f2e-ab45-fc9198048c74) and click on Share -> Publish.
 
-## Can I connect a custom domain to my Lovable project?
+## Connect a Custom Domain
 
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+To make the birthday site even more special with a custom domain, navigate to Project > Settings > Domains and click Connect Domain.
 
 Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
