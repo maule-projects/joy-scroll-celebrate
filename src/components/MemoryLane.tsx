@@ -15,33 +15,27 @@ interface Memory {
 const memories: Memory[] = [
   {
     id: 1,
-    image: 'https://source.unsplash.com/random/600x400?friends',
-    caption: "Remember this amazing day at the beach?"
+    image: 'https://source.unsplash.com/random/600x400?friends'
   },
   {
     id: 2,
-    image: 'https://source.unsplash.com/random/600x400?party',
-    caption: "Your surprise party last year!"
+    image: 'https://source.unsplash.com/random/600x400?party'
   },
   {
     id: 3,
-    image: 'https://source.unsplash.com/random/600x400?travel',
-    caption: "This one's from the trip to Manali!"
+    image: 'https://source.unsplash.com/random/600x400?travel'
   },
   {
     id: 4,
-    image: 'https://source.unsplash.com/random/600x400?celebration',
-    caption: "That crazy night we stayed up until sunrise!"
+    image: 'https://source.unsplash.com/random/600x400?celebration'
   },
   {
     id: 5,
-    image: 'https://source.unsplash.com/random/600x400?cake',
-    caption: "Your favorite cake from your 25th birthday!"
+    image: 'https://source.unsplash.com/random/600x400?cake'
   },
   {
     id: 6,
-    image: 'https://source.unsplash.com/random/600x400?nature',
-    caption: "Our hiking adventure last summer"
+    image: 'https://source.unsplash.com/random/600x400?nature'
   }
 ];
 
