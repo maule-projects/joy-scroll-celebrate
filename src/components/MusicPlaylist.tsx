@@ -8,6 +8,9 @@ const MusicPlaylist = () => {
     threshold: 0.1
   });
 
+  // Spotify playlist link
+  const spotifyPlaylistLink = "https://open.spotify.com/playlist/0Hso8KVAmHzyxyH7vbsw9Z?si=Kz5duYf-QxuhL5jpzwTh3A&pi=SfIXICoaRtuBk";
+
   return (
     <section id="music-playlist" ref={ref} className="scroll-section bg-gray-100">
       <h2 className={`section-title text-birthday-blue transition-all duration-1000 ${
@@ -86,7 +89,7 @@ const MusicPlaylist = () => {
             
             <div className="mt-6">
               <a 
-                href="https://open.spotify.com"
+                href={spotifyPlaylistLink}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block w-full py-3 bg-green-500 text-white text-center rounded-lg font-medium hover:bg-green-600 transition-colors"
