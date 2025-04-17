@@ -63,11 +63,11 @@ const MusicPlaylist = () => {
                     1
                   </div>
                   <div>
-                    <h4 className="font-medium text-gray-800">Dancing Queen</h4>
-                    <p className="text-sm text-gray-500">ABBA</p>
+                    <h4 className="font-medium text-gray-800">Rasavaachiye</h4>
+                    <p className="text-sm text-gray-500">Sid Sriram</p>
                   </div>
                 </div>
-                <span className="text-sm text-pink-400 font-medium">3:52</span>
+                <span className="text-sm text-pink-400 font-medium">3:23</span>
               </div>
               
               <div className="rounded-xl bg-white p-4 flex justify-between items-center hover:bg-pink-50 transition-colors border border-pink-100 shadow-sm">
