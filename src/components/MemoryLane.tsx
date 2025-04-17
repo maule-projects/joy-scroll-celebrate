@@ -15,7 +15,7 @@ interface Memory {
 const memories: Memory[] = [
   {
     id: 1,
-    image: 'https://source.unsplash.com/random/600x400?friends'
+    image: 'https://drive.google.com/file/d/12oRCXhIqbaVLbR-1qL1Z8NZXFEZGSEVV/view?usp=drive_link'
   },
   {
     id: 2,
