@@ -1,11 +1,10 @@
+
 import { useState, useEffect } from 'react';
 import HeroSection from '@/components/HeroSection';
 import MemoryLane from '@/components/MemoryLane';
 import FriendMessages from '@/components/FriendMessages';
-import FunFacts from '@/components/FunFacts';
 import MusicPlaylist from '@/components/MusicPlaylist';
 import LetterSection from '@/components/LetterSection';
-import DigitalGift from '@/components/DigitalGift';
 import FireworksEnding from '@/components/FireworksEnding';
 import ScrollToTop from '@/components/ScrollToTop';
 
@@ -83,10 +82,8 @@ const Index = () => {
       <HeroSection name={birthdayPersonName} />
       <MemoryLane />
       <FriendMessages />
-      <FunFacts />
       <MusicPlaylist />
       <LetterSection />
-      <DigitalGift />
       <FireworksEnding />
       <ScrollToTop />
     </div>
