@@ -10,7 +10,7 @@ import ScrollToTop from '@/components/ScrollToTop';
 
 const Index = () => {
   // Customize the birthday person's name here
-  const [name, setName] = useState('Sarah');
+  const [name, setName] = useState('Sudhishna');
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
